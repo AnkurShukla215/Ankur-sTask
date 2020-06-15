@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { InMemoryDbService } from 'angular-in-memory-web-api';
 import { Observable } from 'rxjs';
 import { User } from './user';
 import { BehaviorSubject } from 'rxjs';

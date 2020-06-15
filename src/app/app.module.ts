@@ -14,8 +14,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { from } from 'rxjs';
 
 
 @NgModule({
@@ -35,7 +33,6 @@ import { from } from 'rxjs';
     MatFormFieldModule,
     MatInputModule,
     MatTooltipModule
-    // InMemoryWebApiModule.forRoot(UserService)
   ],
   providers: [UserService],
   bootstrap: [AppComponent]
